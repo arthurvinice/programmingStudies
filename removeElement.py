@@ -3,10 +3,12 @@
 # Then return the number of elements in nums which are not equal to val.
 # Challenge available in leetcode.com
 
-def removeElement(self, nums: List[int], val: int) -> int:
-        i = len(nums)-1
-        while i > 0:
-            if nums[i] == val:
-                nums.pop(i)
-            i-=1
-        return len(nums)
+def removeElement(nums: list[int], val: int) -> int:
+    i = 0
+    nums.sort()
+    while i < len(nums):
+        if nums[i] == val:
+            nums.remove(nums[i])
+        else:
+            i += 1
+    return len(nums)
