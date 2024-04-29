@@ -12,5 +12,3 @@ def singleNumber(nums: list[int]) -> int:
             for num in nums:
                 dif ^= num
             return dif
-    
-print(singleNumber([4,1,2,1,2]))
