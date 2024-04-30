@@ -11,12 +11,12 @@ def detectCapitalUse(word: str) -> bool:
         if word[0].isupper():
             if len(word) == 1:
                 return True
-            if word[1:].islower() or word[1:].isupper():
+            elif word[1:].islower() or word[1:].isupper():
                 return True
         elif word[0].islower():
             if len(word) == 1:
                 return True
-            if word[1:].islower():
+            elif word[1:].islower():
                 return True
             else:
                 return False
