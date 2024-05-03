@@ -1,3 +1,4 @@
+# A school is trying to take an annual photo of all the students. 
 def heightChecker(heights: list[int]) -> int:
     if  1 <= len(heights) <= 100:
         h_sorted = sorted(heights)
