@@ -1,3 +1,5 @@
+# Given an integer array nums sorted in non-decreasing order, 
+# return an array of the squares of each number sorted in non-decreasing order.
 # Challenge available in leetcode.com
 
 def sortedSquares(nums: list[int]) -> list[int]:
