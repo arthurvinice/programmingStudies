@@ -1,3 +1,5 @@
+# Challenge available in leetcode.com
+
 def sortedSquares(nums: list[int]) -> list[int]:
     if 1 <= len(nums) <= 10**4:
         sqrs_array = []
