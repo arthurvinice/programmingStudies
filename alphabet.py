@@ -10,4 +10,6 @@ def get_all_letters_number(number):
     
 
 def main():
-    print(get_all_letters_number(5))
+    print(get_all_letters_number())
+
+main()
