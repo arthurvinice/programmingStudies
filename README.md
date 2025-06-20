@@ -1,2 +1,1 @@
-CodeByter and similar websites Repository
-For study purpose only
+Just a repository made for study purposes only.
